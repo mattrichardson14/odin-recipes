@@ -1,3 +1,8 @@
+body {
+    background-color: #FCEBD7;
+}
+
+
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -5,11 +10,25 @@ h1 {
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+.homeparagraph {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}   
 
 #mainpic {
     text-align: center;
@@ -19,4 +38,31 @@ h3 {
 
 .navbar {
     text-align: center;
+    font-size: 26px;
 }
+
+.navbar a {
+    color: black;
+    padding: 0 10px;
+  }
+
+button {
+    background-color: #7A3C10;
+    color: white;
+    border-radius: 15%;
+    height: 40px;
+    width: 120px;
+    display: block;
+    margin: auto;
+    font-size: 16px;;
+}
+
+button:hover {
+    background-color: #472309;
+  }
+
+button a {
+    color: #fff;
+    text-decoration: none;
+  }
+
